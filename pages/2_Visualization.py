@@ -66,7 +66,7 @@ st.subheader("Clarity Distribution")
 
 fig, ax = plt.subplots()
 
-df["color"].value_counts().plot(kind="bar", ax=ax)
+df["clarity"].value_counts().plot(kind="bar", ax=ax)
 
 ax.set_title("Clarity Distribution")
 ax.set_xlabel("Clarity")
